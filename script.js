@@ -7,13 +7,13 @@ wrapperButton.onclick = function () {
   wrapperButton.classList.remove("burger-show");
 };
 
-menuButton.onclick = function () {
-  wrapperBurger.classList.add("burger-show");
-  menuButton.classList.add("burger-show");
-};
-
-// const menu = function () {
+// menuButton.onclick = function () {
 //   wrapperBurger.classList.add("burger-show");
 //   menuButton.classList.add("burger-show");
 // };
-// menuButton.addEventListener("click", menu);
+
+const menu = function () {
+  wrapperBurger.classList.add("burger-show");
+  menuButton.classList.add("burger-show");
+};
+menuButton.addEventListener("click", menu);
